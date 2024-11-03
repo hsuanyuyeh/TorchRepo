@@ -40,7 +40,7 @@ else:
     with open("helper_functions.py", "wb") as f:
         f.write(requests.content)
 
-# create CNN model
+# create CNN model - VGG architec
 class FashionMNISTModelV1(nn.Module):
     def __init__(self, input_shape: int, hidden_units: int, output_shape: int):
         super().__init__()
