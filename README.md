@@ -1,1 +1,1 @@
-ConvNets - Implement of CNN
+ConvNets - Implementation of CNN
