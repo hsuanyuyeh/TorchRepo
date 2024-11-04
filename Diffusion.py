@@ -87,7 +87,8 @@ for idx in range(0, T, stepsize):
 
 """
 The backward process - Unet
-
+Encoding path (down part): lowering the spatial resolution to capture high-resolution, low-level characteristics
+Decoding path (up part): increasing the spatial resolution to constitute a dense segmentation map
 """
 class DoubleConv(nn.Module):
     def __init__(self, in_channels, out_channels):
